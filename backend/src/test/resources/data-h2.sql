@@ -1,0 +1,4 @@
+insert into customer (id,code,name,phone,phone2,address,credit_limit,credit,valid) values (1,'cod1','customer1','+555895623','','',100.0,45.7,TRUE),(2,'cod2','customer2','+555895623','','',100.0,0,TRUE),(3,'cod3','customer3','+555895623','','',3100.0,2345.7,TRUE);
+insert into product(id,code,description,price,quantity, valid) values (1,'prod1','this is the product 1', 23.5,10,TRUE),(2,'prod2','this is the product 2', 123.5,5,TRUE),(3,'prod3','this is the product 3', 23.0,16,TRUE);
+insert into sales_order(id,order_number,customer_id,total, valid) values (1,1,1,147.0,TRUE),(2,2,1,46.5,TRUE),(3,4,2,347.0,TRUE);
+insert into order_line(id,sales_order_id,product_id,quantity,valid) values (1,1,1,1,TRUE),(2,1,2,1,TRUE),(3,2,1,1,TRUE),(4,2,3,1,TRUE),(5,3,2,1,TRUE),(6,3,3,1,TRUE);
