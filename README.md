@@ -64,3 +64,13 @@ DELETE – Mark an element as removed
     - {code} Product code which identifies it uniquely
   - /backend/v1/delete/salesorder/{orderNumber}
     - {orderNumber} numeric code for the order which identifies it uniquely
+
+### Development
+Want to contribute? Great!
+
+License
+----
+MIT
+
+
+**Free Software, Hell Yeah!**
