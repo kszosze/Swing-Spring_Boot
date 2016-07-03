@@ -5,4 +5,4 @@ sudo: false
 install: true
 script:
   - cd backend
-  - mvn clean build test
+  - mvn clean install test
