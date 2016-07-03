@@ -3,3 +3,6 @@ jdk:
   - oraclejdk8
 sudo: false
 install: true
+script:
+  - cd backend
+  - mvn clean build test
